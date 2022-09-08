@@ -1,13 +1,14 @@
 #include <stdio.h>
 
-/*
- * main - Entry point
+/**
+ * main - Prints the text shown and a new line.
  *
+ * Return: Always 0 (success)
  */
 
 int main(void)
+
 {
-	/*Prints the text shown and a new line*/
-	puts("Programming is like building a multilingual puzzle \n");
+	puts("Programming is like building a multilingual puzzle");
 	return (0);
 }
