@@ -2,7 +2,7 @@
 
 /**
  * main - entry point
- *
+ * Description - Prints the alphabets in lowercase and uppercase consecutively
  * Return: 0
  */
 
@@ -16,12 +16,12 @@ int main(void)
 
 	}
 
-	putchar('\n');
-
 	for (alphabet = 'A'; alphabet <= 'Z'; alphabet++)
 	{
 		putchar(alphabet);
 	}
+
+	putchar('\n');
 
 	return (0);
 
