@@ -17,7 +17,8 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 
 	/* Find last digit */
-	int lastDigit = n % 10;
+	int lastDigit; 
+	lastDigit = n % 10;
 
 	/* Total number of digits - 1 */
 	int digits = (int)log10(n);
