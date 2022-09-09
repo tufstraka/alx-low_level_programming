@@ -38,9 +38,9 @@ int main(void)
 				}
 			}
 
-			c++;
+			x++;
 		}
-		d++;
+		y++;
 	}
 	putchar('\n');
 	return (0);
