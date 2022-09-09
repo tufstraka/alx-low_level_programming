@@ -2,7 +2,7 @@
 
 /**
  * main - entry point
- * Description - Prints the numbers 0 to 9 followed by a new line, using putchar
+ * Description - Prints the numbers 0 to 9 followed by a new line
  * Return: 0
  */
 
@@ -13,7 +13,7 @@ int main(void)
 
 	for (x = 0; x < 10; x++)
 	{
-		putchar(x +'0');
+		putchar(x + '0');
 
 	}
 
