@@ -10,19 +10,17 @@ int main(void)
 {
 	char alphabet;
 
-	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
-	{
-		if (alphabet < 'e' ){
-			putchar(alphabet);
-		}
-		if (alphabet > 'e' && alphabet < 'q'){
-			putchar(alphabet);
-		}
-		if (alphabet > 'q'){
-			putchar(alphabet);
-		}
+	alphabet = 'a';
 
+	while (alphabet < 'z')
+	{
+		if (alphabet != 'e' && alphabet != 'q')
+		{
+			putchar(alphabet);
+		}
+		alphabet++;
 	}
+
 
 	putchar('\n');
 
