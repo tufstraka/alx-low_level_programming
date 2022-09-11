@@ -19,29 +19,22 @@
 int main(void)
 {
 	int x;
-	int y = 0;
-
-	while (y < 10)
+	int y;
+	for (x = 48; x <= 57; x++)
 	{
-		x = 0;
-		while (x < 10)
+		for (y = x + 1; y <= 57; y++)
 		{
-			if (y != x && y < x)
+			putchar(x);
+			putchar(y);
+			if (x == 56 && y == 57)
 			{
-				putchar('0' + y);
-				putchar('0' + x);
-
-				if (x + y != 17)
-				{
-					putchar(',');
-					putchar(' ');
-				}
+				putchar ('\n');
+				break;
 			}
-
-			x++;
+			putchar(',');
+			putchar(' ');	
 		}
-		y++;
 	}
-	putchar('\n');
+
 	return (0);
 }
