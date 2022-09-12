@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
-  * main - check the code
-  *
+  * _islower - check the code
+  * @c: parameter
   * Description - Checks for lowercase characters
   *
   * Return: 0
@@ -10,7 +10,7 @@
 
 int _islower(int c)
 {
-	if ( 97 >= c <= 122 )
+	if (c >= 97 && c <= 122)
 	{
 		return (1);
 	}
