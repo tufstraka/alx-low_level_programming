@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - entry point
+ * print_alphabet - entry point
  *
  * Description - Prints the alphabet in lowercase, followed by a new line
  *
@@ -12,19 +12,10 @@ void print_alphabet(void)
 {
 	int alphabet;
 
-	for(alphabet = 97; alphabet <= 122; alphabet++)
+	for (alphabet = 97; alphabet <= 122; alphabet++)
 	{
 		putchar(alphabet);
 	}
 	putchar('\n');
 
 }
-
-int main(void)
-{
-
-	print_alphabet();
-	return (0);
-
-}
-
