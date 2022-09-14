@@ -22,7 +22,7 @@ void print_to_98(int n)
 				if (i == 98)
 				{
 					putchar('\n');
-					breal;
+					break;
 				}
 				putchar(',');
 				putchar(' ');
