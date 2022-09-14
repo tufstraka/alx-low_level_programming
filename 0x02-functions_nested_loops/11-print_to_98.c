@@ -17,6 +17,7 @@ void print_to_98(int n)
 		printf("%i", i);
 		if (i == 98)
 		{
+			putchar('\n');
 			break;
 		}
 		putchar(',');
