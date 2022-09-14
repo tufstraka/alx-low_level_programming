@@ -31,7 +31,7 @@ void print_to_98(int n)
 		if (n == 99)
 		{
 			n--;
-			printf("%i", n)
+			printf("%i", n);
 			putchar('\n');
 			break;
 		}
