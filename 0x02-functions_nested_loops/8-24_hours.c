@@ -30,7 +30,7 @@ void jack_bauer(void)
 					if (a == 50 && b == 51 && c == 53 && d == 57)
 					{
 						_putchar('\n');
-						break;
+						break
 					}
 					_putchar('\n');
 				}
