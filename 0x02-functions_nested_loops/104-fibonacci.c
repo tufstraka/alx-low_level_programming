@@ -18,13 +18,13 @@ int main(void)
 	b = 2;
 	r = 0;
 
-	printf ("1, 2");
-	for(i = 1; i <= 96; i++)
+	printf("1, 2");
+	for (i = 1; i <= 96; i++)
 	{
 		r = a + b;
 		a = b;
 		b = r;
-		printf (", %.0f",r);
+		printf(", %.0f", r);
 	}
 	putchar('\n');
 	return (0);
