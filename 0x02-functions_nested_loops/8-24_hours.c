@@ -14,17 +14,17 @@ void jack_bauer(void)
 	int c;
 	int d;
 
-	a = 0;
-	while (a <= 2)
+	a = 48;
+	while (a <= 50)
 	{
-		b = 0;
-		while (b <= 9)
+		b = 48;
+		while (b <= 57)
 		{
-			c = 0;
-			while (c <= 5)
+			c = 48;
+			while (c <= 53)
 			{
-				d = 0;
-				while (d <= 9)
+				d = 48;
+				while (d <= 57)
 				{
 					_putchar(a);
 					_putchar(b);
