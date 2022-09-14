@@ -1,4 +1,4 @@
-#include <stdio.c>
+#include "main.h"
 
 /**
  * add - finds the summation of the two arguments
