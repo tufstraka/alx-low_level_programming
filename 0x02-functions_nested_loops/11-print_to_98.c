@@ -12,18 +12,6 @@ void print_to_98(int n)
 {
 	int i;
 
-	for (i = n; i >= 98; i--)
-	{
-		printf("%i", i);
-		if (i == 98)
-		{
-			putchar('\n');
-			break;
-		}
-		putchar(',');
-		putchar(' ');
-	}
-
 	for (i = n; i <= 98; i++)
 	{
 		for (i = n; i >= 98; i--)
