@@ -36,6 +36,10 @@ void jack_bauer(void)
 				}
 				c++;
 			}
+			if (a == 50 && b == 51)
+			{
+				break;
+			}
 			b++;
 		}
 		a++;
