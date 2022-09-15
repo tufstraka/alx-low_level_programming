@@ -14,17 +14,7 @@ int _isupper(int c)
 	{
 		if (c >= 65)
 		{
-			printf("%i", 1);
-			break;
-		}
-	}
-
-	while (c <= 122)
-	{
-		if (c >= 97)
-		{
-			printf("%i", 0);
-			break;
+			return (1);
 		}
 	}
 
