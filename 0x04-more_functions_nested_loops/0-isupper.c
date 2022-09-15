@@ -10,12 +10,9 @@
 int _isupper(int c)
 {
 
-	while (c <= 90)
+	if (c >= 65 && c <= 90)
 	{
-		if (c >= 65)
-		{
-			return (1);
-		}
+		return (1);
 	}
 
 	return (0);
