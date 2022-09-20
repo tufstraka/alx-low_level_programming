@@ -3,7 +3,7 @@
 /**
  * rev_string - print reverse characters.
  * @s: validate the character
- * Return: Always 0.
+ * Return: nothing.
  */
 void rev_string(char *s)
 {
