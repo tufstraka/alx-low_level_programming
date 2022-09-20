@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * _atoi - print reverse characters.
- * @s: Array
+ * _atoi - convert a string to an integer
+ * @s: argument points to a memory address containing
+ * char data type.
  *
- * Return: Always 0.
+ * Return: some int.
  */
 int _atoi(char *s)
 {
