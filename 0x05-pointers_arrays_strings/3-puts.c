@@ -2,8 +2,8 @@
 
 /**
  * _puts - check the code.
- * @str: validate the character
- * Return: Always 0.
+ * @str: parameter
+ * Return: nothing, I guess.
  */
 void _puts(char *str)
 {
