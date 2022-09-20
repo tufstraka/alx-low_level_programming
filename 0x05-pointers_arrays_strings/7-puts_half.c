@@ -1,9 +1,11 @@
 #include "main.h"
 
 /**
- * puts_half - print reverse characters.
- * @str: validate the character
- * Return: Always 0.
+ * puts_half - prints half of a string, followed by a new line.
+ *
+ * @str: the argument is basically a memory address for a char data type.
+ *
+ * Return: Nothing.
  */
 void puts_half(char *str)
 {
