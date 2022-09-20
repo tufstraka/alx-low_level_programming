@@ -2,10 +2,11 @@
 #include "stdio.h"
 
 /**
- * print_array - print reverse characters.
- * @a: Array
- * @n: Number of array
- * Return: Always 0.
+ * print_array - prints n elements of an array of integers 
+ * followed by a new line.
+ * @a: argument is the memory address of int
+ * @n: elements to be printed
+ * Return: Nothing.
  */
 void print_array(int *a, int n)
 {
