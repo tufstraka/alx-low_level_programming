@@ -14,6 +14,8 @@ char *_strcat(char *dest, char *src)
 	int index;
 	int destlength;
 
+	destlength = 0;
+
 	while (dest[index++])
 	{
 		destlength++;
