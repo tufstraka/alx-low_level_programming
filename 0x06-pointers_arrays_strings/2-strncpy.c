@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *_strncopy - copies a string
+ *_strncpy - copies a string
  *
  *@dest: destination
  *@src: source
@@ -31,13 +31,12 @@ char *_strncpy(char *dest, char *src, int n)
 		 *by n
 		 */
 		dest[index] = src[index];
-		
-		//if index is the same as the length of src
-		if (index = srclength)
-		{
-			//set the value of dest at that index to the null byte
-			dest[index] = '\0';
-		}
+	}
+	for (index = srclength; index < n; index++)
+	{
+		//for all indices beyond the length of src
+		//add null bytes
+		dest[index] = '\0';
 	}
 
 	return (dest);
