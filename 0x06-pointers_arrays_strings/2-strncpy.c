@@ -24,7 +24,7 @@ char *_strncpy(char *dest, char *src, int n)
 		srclength++;
 	}
 
-	for (index = 0; index < n; index++)
+	for (index = 0; src[index] && index < n; index++)
 	{
 		/*Set the value at each index of src to its corresponding
 		 *index at dest until you reach the number of bytes specified
