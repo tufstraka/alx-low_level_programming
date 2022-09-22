@@ -13,14 +13,31 @@
 char *_strncopy(char *dest, char *src, int n)
 {
 	int index;
-	int destlength;
+	int srclength;
 	
 	index = 0;
-	destlength = 0;
-
-	for (index = 0; src[index++] && index < n; index++)
+	srclength = 0;
+	
+	//Find the length of the src string
+	while (src[index++])
 	{
-		dest[destlength++] = src[index];
+		srclength++;
+	}
+
+	for (index = 0; index < n; index++)
+	{
+		/*Set the value at each index of src to its corresponding
+		 *index at dest until you reach the number of bytes specified
+		 *by n
+		 */
+		dest[index] = src[index];
+		
+		//if index is the same as the length of src
+		if (index = srclength)
+		{
+			//set the value of dest at that index to the null byte
+			dest[index] = '\0';
+		}
 	}
 
 	return (dest);
