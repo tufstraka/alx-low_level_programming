@@ -18,7 +18,7 @@ char *_strncopy(char *dest, char *src, int n)
 	index = 0;
 	destlength = 0;
 
-	for (index = 0; src[index++]; index++)
+	for (index = 0; src[index++] && index < n; index++)
 	{
 		dest[destlength++] = src[index];
 	}
