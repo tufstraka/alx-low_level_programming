@@ -23,7 +23,7 @@ char *_strncat(char *dest, char *src, int n)
 		destlength++;
 	}
 
-	for (index = 0; index < n; index++)
+	for (index = 0; src[index] && index < n; index++)
 	{
 		dest[destlength++] = src[index];
 	}
