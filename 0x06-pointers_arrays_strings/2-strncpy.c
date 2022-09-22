@@ -5,12 +5,12 @@
  *
  *@dest: destination
  *@src: source
- *@n: number of bytes
+ *@n: number of bytes to be copied
  *
  *Return: pointer to the copied string
  */
 
-char *_strncopy(char *dest, char *src, int n)
+char *_strncpy(char *dest, char *src, int n)
 {
 	int index;
 	int srclength;
@@ -24,7 +24,7 @@ char *_strncopy(char *dest, char *src, int n)
 		srclength++;
 	}
 
-	for (index = 0; src[index] && index < n; index++)
+	for (index = 0; index < n; index++)
 	{
 		/*Set the value at each index of src to its corresponding
 		 *index at dest until you reach the number of bytes specified
