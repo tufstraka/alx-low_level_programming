@@ -6,7 +6,8 @@
  *@s: contains memory address of the string
  *@c: character to be located
  *
- *Return: pointer to the character in the string
+ *Return: if c is found - pointer to the first occurrence
+ *        if c is not found - NULL
  */
 
 char *_strchr(char *s, char c)
