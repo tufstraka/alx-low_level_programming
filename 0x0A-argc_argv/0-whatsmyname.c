@@ -3,8 +3,8 @@
 /**
  *main - prints the program's name followed by a new line
  *
- *argc: argument count
- *argv: argument vector
+ *@argc: argument count
+ *@argv: argument vector
  *
  *Return: 0
  */
