@@ -1,3 +1,8 @@
+/*
+ * File: 1-binary.c
+ * Auth: Keith K. Kadima;
+ */
+
 #include "search_algos.h"
 
 /**
