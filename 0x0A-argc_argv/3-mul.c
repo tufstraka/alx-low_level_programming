@@ -7,7 +7,7 @@
  *@argc: argument count
  *@argv: argument vector
  *
- *Return: Product of 2 arguments
+ *Return: if args are 2, 0
  *		  if arguments < 2, print error, return 1
  */
 
